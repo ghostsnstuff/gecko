@@ -2,7 +2,7 @@
 
 Converts a string into binary (two's complement) and or hexadecimal.
 
-![](./charmander-go.png?raw=true)
+![](./char.png?raw=true)
 
 #installation
 
