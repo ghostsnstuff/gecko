@@ -1,14 +1,14 @@
 #gecko
 
-Converts a string into two's complement binary and or hexadecimal.
+Converts a string into binary (two's complement) and or hexadecimal.
 
-![](./charmander.jpg?raw=true)
+![](./charmander.png?raw=true)
 
 #installation
 
     npm install gecko
 
-#toBinary(string)
+##toBinary(string)
 
 ```javascript
 var gecko = require('gecko').gecko()
@@ -26,7 +26,7 @@ output
       j: '01101010',
       s: '01110011' }
 
-#toHex(string)
+##toHex(string)
 
 ```javascript
 var gecko = require('gecko').gecko()
