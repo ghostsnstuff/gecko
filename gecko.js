@@ -25,10 +25,5 @@ function zeroFill(number, width) {
   if (width > 0) {
     return new Array(width + (/\./.test(number) ? 2 : 1)).join('0') + number
   }
-<<<<<<< HEAD
-  return number + ''
-}
-=======
   return number + '' 
 }
->>>>>>> f951bb72c3d0e669cb4b8591eafa4041cc04287e
