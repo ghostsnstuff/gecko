@@ -11,7 +11,7 @@ Converts a string into binary (two's complement) and or hexadecimal.
 ##toBinary(string)
 
 ```javascript
-var gecko = require('gecko').gecko()
+var gecko = require('gecko')
 var str = 'nodejs'
 var binary = gecko.toBinary(str)
 console.log(binary)
@@ -29,7 +29,7 @@ output
 ##toHex(string)
 
 ```javascript
-var gecko = require('gecko').gecko()
+var gecko = require('gecko')
 var str = 'nodejs'
 var hex = gecko.toHex(str)
 console.log(hex)

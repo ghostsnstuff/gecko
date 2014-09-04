@@ -1,7 +1,7 @@
-var gecko = require('../gecko').gecko()
+var gecko = require('../gecko')
   , assert = require('assert')
   , str = 'nodejs'
-	
+
 var binary = gecko.toBinary(str)
 var actual = JSON.stringify(binary)
 var expected = JSON.stringify({n:'01101110',o:'01101111',d:'01100100',e:'01100101',j:'01101010',s:'01110011'})
