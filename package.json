@@ -1,0 +1,27 @@
+{
+  "name": "gecko",
+  "version": "0.0.2",
+  "description": "convert a string to binary",
+  "main": "gecko.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "node test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ghostsnstuff/gecko.git"
+  },
+  "keywords": [
+    "string",
+    "to",
+    "binary"
+  ],
+  "author": "me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ghostsnstuff/gecko/issues"
+  },
+  "homepage": "https://github.com/ghostsnstuff/gecko"
+}
